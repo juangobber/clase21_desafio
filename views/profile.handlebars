@@ -1,0 +1,15 @@
+<div class="container mt-3 row">
+    <h3>Your Profile</h3>
+
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item"> <span class="fw-bold">Name:</span>  {{user.first_name}} {{user.last_name}} {{#if user.admin}} <span style="color: green">(admin)</span> {{else}} <span style="color: blue"> (user)</span>{{/if}}</li>
+    <li class="list-group-item"><span class="fw-bold">Age:</span> {{user.age}}</li>
+    <li class="list-group-item"><span class="fw-bold">Email:</span> {{user.email}}</li>
+    </ul>
+
+    <a  class="mt-3" href="/products">See our products</a>
+    <div>
+        <button type="button" class="btn btn-danger mt-3 btn-sm" onclick="return logout()">Log out</button>
+    </div>
+</div>
+

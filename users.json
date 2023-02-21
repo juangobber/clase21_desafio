@@ -1,0 +1,16 @@
+[
+{ 
+    "first_name": "Juan",
+    "last_name": "Zim",
+    "email": "juanzim@gmail.com",
+    "age": "25",
+    "password": "1234"  
+},
+{ 
+    "first_name": "Martin",
+    "last_name": "Cosmo",
+    "email": "martincosmo@gmail.com",
+    "age": "26",
+    "password": "789"  
+}
+]
